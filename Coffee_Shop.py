@@ -8,10 +8,10 @@ print("Coffee      $20")
 print("Tea         $15")
 print("Breakfast   $5")
 c=input("")
-if c==("Coffee")or("coffee"):
+if c==("Coffee")or c==("coffee"):
   print("A "+c+" would be"+("$20"))
-if c==("Tea")or("tea"):
+if c==("Tea")or c==("tea"):
   print("A "+c+" would be"+("$15"))
-if c==("Breakfast")or("breakfast"):
+if c==("Breakfast")or c==("breakfast"):
   print("A "+c+" would be"+("$5"))
 
