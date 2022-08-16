@@ -14,4 +14,6 @@ if c==("Tea")or c==("tea"):
   print("A "+c+" would be"+("$15"))
 if c==("Breakfast")or c==("breakfast"):
   print("A "+c+" would be"+("$5"))
+elif c!=("Tea")and c !=("tea")and c!=("Coffee")and c!=("coffee")and c!=("Breakfast")and c!=("breakfast"):
+  print("Sorry we do not offer that.")
 
